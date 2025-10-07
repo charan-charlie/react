@@ -1,0 +1,148 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.logo > img {
+    width: 100px;
+}
+
+.nav-items {
+    padding: 0px 20px;
+}
+
+.nav-items > ul {
+    font-size: 24px;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items > ul > li {
+    padding: 10px;
+}
+/* 
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+}
+
+.res-card {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 280px;
+    border: 1px solid black;
+    padding: 5px;
+    text-decoration: none;
+    color: #333;
+}   
+.res-card a {
+    text-decoration: none;
+    color: #333;
+}
+
+.res-card:hover {
+    cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    transform: scale(1.04);
+    text-decoration: none;
+    color: gray;
+} */
+
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  /* The card container */
+  .res-card {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 280px;
+    border: 1px solid black;
+    padding: 5px;
+    color: #333;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  /* Remove underline from any links wrapping the card */
+  .res-container a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Hover effects */
+  .res-card:hover {
+    cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    transform: scale(1.04);
+    color: gray;
+    text-decoration: none;
+  }
+  
+
+.search-bar {
+    padding: 10px;
+    width: 50%;
+}
+
+.res-logo{
+    width: 150px;
+}
+
+.res-info-container {
+    display: flex;
+}
+
+.res-rating-container{
+    align-self: flex-end;
+}
+
+.filter-container {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .nav-items a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  .header .nav-items a:hover {
+    text-decoration: none;
+    color: gray;
+  }
+
+  .login-btn {
+    margin-left: 20px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #0056b3;
+  }
+
+  .user-card {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  

@@ -1,0 +1,31 @@
+{
+  "name": "namaste_react",
+  "version": "1.0.0",
+  "description": "This is Namaste React by Charan",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charan-charlie/react.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Charan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charan-charlie/react/issues"
+  },
+  "homepage": "https://github.com/charan-charlie/react#readme",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^6.28.0"
+  }
+}
